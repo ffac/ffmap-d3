@@ -23,10 +23,10 @@ define("config", [
 
   var ffmapConfig = {
     // link to your main community site:
-    url:       "/",
+    url:       "http://www.freifunk-aachen.de/",
 
     // visible link in the navigation:
-    sitename:  "gothamcity.freifunk.net",
+    sitename:  "Freifunk Regio Aachen",
 
     // initial gravity, friction, of the graph at pageload:
     gravity:   0.05,
@@ -122,6 +122,7 @@ define("config", [
 
     map: {
       showNodeInfo: false,
+      /*
       layer: {
         url: "http://otile{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.jpg",
         config: {
@@ -131,7 +132,7 @@ define("config", [
           opacity: 0.7
         }
       }
-      /*
+      */
       layer: {
         url: "http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png",
         config: {
@@ -140,7 +141,7 @@ define("config", [
           attribution: "© <a href=\"http://osm.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Open Database License",
           opacity: 0.7
         }
-      }*/
+      }
     }
 
 
