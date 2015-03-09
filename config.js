@@ -55,6 +55,7 @@ define("config", [
             }
           ]
         },
+        /*
         "traffic": {
           label: "Traffic",
           sources: [
@@ -74,6 +75,7 @@ define("config", [
           },
           tickFormat: "bytes"
         },
+        */
         "loadavg": {
           label: "Load",
           sources: [
