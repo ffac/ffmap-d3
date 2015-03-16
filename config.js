@@ -124,7 +124,6 @@ define("config", [
 
     map: {
       showNodeInfo: true,
-      /*
       layer: {
         url: "http://otile{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.jpg",
         config: {
@@ -134,7 +133,7 @@ define("config", [
           opacity: 0.7
         }
       }
-      */
+      /*
       layer: {
         url: "http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png",
         config: {
@@ -144,6 +143,7 @@ define("config", [
           opacity: 0.7
         }
       }
+      */
     }
 
 
